@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aishat Adedre || Porfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/3b26c06902.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <a href="" class="header_home">aishatadedire</a>
+
+          <ul class="menu">
+            <li>
+              <a href="javascript:void(0);" onclick="scrollToHeader()">Home</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" onclick="scrollToAbout()">About</a>
+            </li>
+            <li>
+              <a href="javascript:void(0);" onclick="scrollToProjects()"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="javascript:void(0);" onclick="scrollToContact()"
+                >Contact</a
+              >
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </li>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>FRONTEND DEVELOPER</p>
+          <h1>
+            Hi, I'm <span>Aishat Adedire</span> <br />
+            from Nigeria
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="IMG-20240202-WA0054.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About me</h1>
+            <p>
+              I'm a passionate and creative Frontend Developer dedicated to
+              crafting user-friendly and visually appealing websites. With a
+              strong foundation in web development and a keen eye for design, I
+              bring ideas to life in the digital realm.
+            </p>
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </div>
+              <div class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </div>
+              <div class="tab-links" onclick="opentab('Education')">
+                Education
+              </div>
+            </div>
+
+            <div class="tab-contents one" id="Skills">
+              <ul>
+                <li>
+                  <span>HTML5</span><br />
+                  Proficient in creating semantic and accessible markup.
+                </li>
+                <li>
+                  <span>CSS3</span><br />Strong understanding of CSS, including
+                  Flexbox and Grid layouts, responsive design, and CSS
+                  preprocessors like Sass or Less.
+                </li>
+                <li>
+                  <span>JavaScript</span><br />Proficient in vanilla JavaScript
+                  and experience with ES6+ features. Knowledge of asynchronous
+                  programming, event handling, and DOM manipulation.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>HNG Internship, Zuri</span><br />Front End Engineering
+                  Intern <br />
+                  09/2023
+                </li>
+                <li>
+                  <span>InternCareer</span><br />Web Development Intern <br />
+                  01/2024 - Present
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>Women Techsters Bootcamp, Tech4Dev</span><br />Software
+                  Development Training
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              As a seasoned Frontend Developer, I specialize in transforming
+              ideas into visually stunning and highly functional websites.
+              Whether you're a business looking to establish an online presence
+              or an individual with a passion project, I offer a range of web
+              development services to meet your needs.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Responsive Design and Mobile Development</h2>
+            <p>
+              In the ever-evolving digital landscape, ensuring your web presence
+              is not only visually stunning but also accessible across diverse
+              devices is paramount. As a frontend developer, I specialize in
+              Responsive Design and Mobile Development, creating websites that
+              adapt effortlessly to different screen sizes and platforms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="02.02.2024_19.34.09_REC.png" alt="" />
+            <div class="layer">
+              <h3>Internship Dashboard</h3>
+              <p>
+                Established a responsive web application to showcase intern
+                details, contributing to a more streamlined process.
+              </p>
+              <a href="https://hngxstage-one-task.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="02.02.2024_19.38.21_REC.png" alt="" />
+            <div class="layer">
+              <h3>LearnHub- a collaborative project</h3>
+              <p>
+                Collaborated with team members to enhance the overall user
+                experience and design the contact page of the website
+                thereby devised interactive and user-friendly forms, improving
+                data collection efficiency on the contact pag
+              </p>
+              <a href="https://learnhub-innovatech.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          </div>
+        </div>
+        <!-- a href="#" class="button1">See more</a -->
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <div class="sub-title">Contact Me</div>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>adedireaishatimoh@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+2349153398959</p>
+            <div class="social-icons">
+              <a href="https://web.facebook.com/adedire.aishatimoh/" 
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/eno_imohh/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/enoobong_"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/aishatadedire/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/aishaadedire"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a
+              href="javascript:void(0);"
+              onclick="openFile('AishatAdedire_CV.pdf')"
+              class="button button2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="button button2">Submit</button>
+            </form>
+            <span class="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Aishat Adedire. 2024</p>
+      </div>
+    </div>
+
+    <script>
+      var menu = document.getElementsByClassName("menu")[0];
+      function openmenu() {
+        menu.style.right = "0";
+      }
+
+      function closemenu() {
+        menu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbygjtlFvrF-JjZePJtoerbZzlRn8oNGhMRwxCPsgee7GfMhDlgRx6I81qINPlISy1Ty7A/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementsByClassName("msg")[0];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML =
+              "Message sent successfully, Thank you reaching out!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      });
+    </script>
+  </body>
+</html>
