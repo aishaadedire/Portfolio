@@ -28,6 +28,13 @@ function scrollToAbout() {
   }
 }
 
+function scrollToServices() {
+  var aboutSection = document.getElementsByClassName("services")[0];
+  if (aboutSection) {
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
 function scrollToProjects() {
   var projectSection = document.getElementsByClassName("projects")[0];
   if (projectSection) {
